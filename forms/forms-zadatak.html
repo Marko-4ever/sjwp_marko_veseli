@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body style="background-color: pink;">
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <label for="roll">Roll no.:</label>
+    <input type="number" name="roll"> <br>
+    <br>
+    <label for="ime">Student name:</label>
+    <input type="text" name="ime" placeholder="First and last name"> <br>
+    <br>
+    <label for="imeoca">Father's name:</label>
+    <input type="text" name="imeoca"> <br>
+    <br>
+    <label for="datum">Date of birth:</label>
+    <input type="date" name="datum" id="datum">
+    <p>(DD-MM-YYY)</p> <br>
+    <label for="mob">Mobile no.:</label>
+    <input type="text" value="+91" size="2" disabled> - <input type="tel" name="mob" id="mob"> <br>
+    <br>
+    <label for="mail">Email ID:</label>
+    <input type="email" name="mail" id="mail"><br>
+    <br>
+    <label for="pass">Password:</label>
+    <input type="password" name="pass" id="pass"><br>
+    <br>
+    Gender:
+    <input type="radio" name="gen" id="genM">
+    <label for="genM">Male</label>
+    <input type="radio" name="gen" id="genF">
+    <label for="genF">Male</label> <br>
+    <br>
+    Department:
+    <input type="checkbox" name="dep1" id="cse">
+    <label for="cse">CSE</label>
+    <input type="checkbox" name="dep2" id="it">
+    <label for="it">IT</label>
+    <input type="checkbox" name="dep3" id="ece">
+    <label for="ece">ECE</label>
+    <input type="checkbox" name="dep4" id="civ">
+    <label for="civ">Civil</label>
+    <input type="checkbox" name="dep5" id="mech">
+    <label for="mech">Mech</label> <br>
+    <br>
+
+    <label for="course">Course:</label>
+    <select name="course" id="course">
+        <option value="course">---------Select Current Courses---------</option>
+        <option value="racunalstvo">Tehnicar za racunalstvo</option>
+        <option value="elektroteh">Elektrotehnicar</option>
+        <option value="sped">Spediter</option>
+    </select><br>
+    <br>
+
+    <label for="photo">Student photo:</label>
+    <input type="file" name="photo" id="photo"><br>
+    <br>
+
+    <label for="city">City:</label>
+    <input type="text" name="city"> <br>
+    <br>
+
+    <label for="addr">Address</label>
+    <textarea name="addr" id="addr" rows="4" cols="50"></textarea><br>
+    <br>
+
+    <input type="submit" value="Register">
+</body>
+
+</html>
